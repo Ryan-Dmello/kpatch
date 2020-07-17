@@ -1,4 +1,6 @@
 language: c
+arch:
+  - ppc64le
 before_install:
   - sudo apt-get -qq update
   - sudo apt-get install -y libelf-dev linux-headers-$(uname -r) shellcheck elfutils
